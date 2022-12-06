@@ -14,7 +14,8 @@ const whitelist = [
   ];
 app.use(cors({ origin: whitelist, credentials: true }));
 app.use(express.json({ limit: '50mb' }));
-app.use("/api", routes);
+app.use("/api", routes); //or app.use(config.api.prefix, routes);
+
 
 
 // Connection to mongoDB
