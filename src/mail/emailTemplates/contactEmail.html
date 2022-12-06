@@ -1,0 +1,458 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+            rel="stylesheet">
+        <title>Welcome To Underscore Technology</title>
+
+        <style type="text/css">
+            @font-face {
+                font-family: "AvenirNextLTPro-Regular";
+                src: url('https://elo-access-app-stg.s3-us-west-2.amazonaws.com/fonts/AvenirNextLTPro-Regular.otf') format("truetype");
+            }
+
+            * {
+                font-family: 'Roboto', sans-serif;
+            }
+
+            /* CLIENT-SPECIFIC STYLES */
+            body,
+            table,
+            td,
+            a {
+                -webkit-text-size-adjust: 100%;
+                -ms-text-size-adjust: 100%;
+            }
+
+            table,
+            td {
+                mso-table-lspace: 0pt;
+                mso-table-rspace: 0pt;
+            }
+
+            img {
+                -ms-interpolation-mode: bicubic;
+                border: 0;
+                outline: none;
+                text-decoration: none;
+            }
+
+            /* RESET STYLES */
+
+
+            table {
+                border-collapse: collapse !important;
+            }
+
+            body {
+                margin: 0 !important;
+                padding: 0 !important;
+                width: 100% !important;
+            }
+
+            #verifybutton a {
+                color: #fff !important;
+                text-decoration: none;
+            }
+
+            u+#body table tr td table tr td a {
+                /* color: #fff !important; */
+                text-decoration: none !important;
+                font-size: inherit !important;
+                font-family: inherit !important;
+                font-weight: inherit !important;
+                line-height: inherit !important;
+            }
+
+            /* iOS BLUE LINKS */
+            a[x-apple-data-detectors] {
+                color: inherit !important;
+                text-decoration: none !important;
+                font-size: inherit !important;
+                font-family: inherit !important;
+                font-weight: inherit !important;
+                line-height: inherit !important;
+            }
+
+            /* ANDROID CENTER FIX */
+            div[style*="margin: 16px 0;"] {
+                margin: 0 !important;
+            }
+
+            *[class*="desktopOff"] {
+                display: none;
+            }
+
+            .desktopOff {
+                display: none;
+            }
+
+            img.LogoImgCls {
+                height: 35px;
+            }
+
+            /* MEDIA QUERIES */
+            @media all and (max-width:639px) {
+                .wrapper {
+                    width: 320px !important;
+                    padding: 0 !important;
+                }
+
+                .container {
+                    width: 320px !important;
+                    padding: 0 !important;
+                }
+
+                br {
+                    display: none;
+                }
+
+                td.head-row {
+                    font-size: 32px !important;
+                    line-height: 46px !important;
+                }
+
+                td.head-row h1 {
+                    font-size: 32px !important;
+                    line-height: 40px !important;
+                }
+
+                *[class="mobileOff"] {
+                    width: 0px !important;
+                    display: none !important;
+                }
+
+                *[class*="mobileOn"] {
+                    display: block !important;
+                    max-height: none !important;
+                }
+
+                *[class*="desktopOff"] {
+                    display: block !important;
+                    max-height: none !important;
+                }
+            }
+        </style>
+    </head>
+
+    <body id="body" style="margin:0; padding:0; background-color:#F2F2F2;">
+        <center>
+            <table width="650" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+                <tr>
+                    <td align="center" valign="top">
+                        <table width="650" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+                            <tr>
+                                <td height="40" style="font-size:10px; line-height:10px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="top">
+                                </td>
+                            </tr>
+                        </table>
+                        <table width="650" cellpadding="20" cellspacing="0" class="wrapper" bgcolor="#FCFCFF "
+                            style=" border-radius: 6px">
+                            <tr>
+                                <td align="center" valign="top" style="padding: 0;">
+                                    <table cellspacing="0" cellpadding="0" style="width: 100%; ">
+                                        <tr>
+                                            <td align="center" valign="top"
+                                                style="font-size: 14px; color: #33353A; line-height: 20px; padding: 0px ; ">
+                                                <div style="color: white;
+                                                display: flex;
+                                                justify-content: space-between;
+                                                width: 94%;
+                                                padding: 0 20px 0;
+                                                /* margin: 0px 20px; */
+                                            ">
+                                                    <img class="LogoImgCls"
+                                                        src="https://s3.amazonaws.com/email.template.underscore/gn/golfnet_logo.png"
+                                                        style="height: 15%; width: 15%;    padding-top: 16px; " />
+                                                    <p style="color: black;">{{date}}</p>
+                                                </div>
+                                                <p
+                                                    style="color: #424242; text-align: left ; font-size: 25px;line-height: 37px; padding-left: 32px;">
+                                                    <span style=" font-weight: 700; ">
+                                                        Solar Golf Nets<br />
+                                                        from SunnyCal Solar are<br />
+                                                    </span>
+                                                    <span style="font-weight: 400; font-size: 20px;">
+                                                        the perfect addition to your solar<br />
+                                                        system investment.
+                                                    </span>
+                                                </p>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top" class="head-row"
+                                                style="font-size: 25px; color: #424242; line-height: 40px; padding: 15px 35px 0px 35px ; font-weight: 600; font-family: Roboto;">
+                                                Dear {{userName}},
+                                                <!-- <h1
+                                                style="color:#424242; font-weight:600; font-size: 28px; line-height: 40px; font-family: Roboto;margin: 0;">
+                                                {{message}}</h1> -->
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top" class="head-row" style="font-size: 16px; color: #424242; padding: 5px 35px 5px 35px ; font-style: normal;
+                                            font-family: 'Google Sans';
+                                            font-weight: 500;
+                                            font-size: 19px;
+                                            line-height: 29px;
+                                            letter-spacing: 0.02em;">
+                                                Thank you for reaching out to us.<br />Your enquiry is registered
+                                                with us.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top" class="head-row"
+                                                style=" font-size: 16px; color: #7C7C7A; line-height: 25px; padding: 10px 35px; font-weight: 400; font-family: Roboto;">
+                                                Your Subject :- {{Subject}}<br />
+                                                Message :- {{message}}<br /><br />
+                                                Thank you for contacting Solar Golf Nets,we look forward to assisting you
+                                                in protecting your solar investment.<br />
+                                                <br />
+                                                Your request has been forwarded to our golf net expert, and we will
+                                                contact you shortly.<br />
+
+                                                <p
+                                                    style="padding:0; color: #4F4F4F; font-weight: 500; font-size: 20px;">
+                                                    Best regards,
+
+                                                </p>
+                                                <p style="padding: 0; margin: 0;">Team Golfnet
+                                                </p>
+                                                <a href="https://solargolfnet.com/"
+                                                    style="cursor: pointer">www.solargolfnet.com</a>
+
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="border: 1px solid #F2F2F2;">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table>
+
+                                        <table style="
+                                    display: flex;
+                                    justify-content: center;
+                                    margin-bottom: 1em;
+
+                                  " align="center">
+                                            <tbody style="width: 28em;">
+                                                <tr style="
+                                        width: 100%;
+                                        display: flex;
+                                        justify-content: space-around;
+                                        align-items: center;
+                                        margin-top: 20px;
+                                      ">
+                                                    <td><span style="color: #828282;
+                                          font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 13px;
+                                            line-height: 20px;
+                                            text-align: center;">You are receving this email because you contact us
+                                                            solar golf nets. Visit us at
+                                                            <a href="https://solargolfnet.com/"
+                                                                style="cursor: pointer">www.solargolfnet.com</a> to
+                                                            view our <span style="color: rgb(14 165 233);">Term of
+                                                                Service</span> or
+                                                            our <span style="color: rgb(14 165 233);">Privacy
+                                                                Policy</span>.</span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <table class="last" style="
+                                          /*display: flex; justify-content: center;*/
+                                          margin: -21px 0px;
+                                        " align="center">
+                                            <td>
+                                                <a href="" style="text-decoration: none">
+                                                    <p class="gray" style="
+                                                font-family: 'Urbanist', sans-serif;
+                                                font-style: normal;
+                                                font-weight: 300;
+                                                font-size: 12px;
+                                                line-height: 157.84%;
+                                                color: #4F4F4F;
+                                                padding: 0 5px;
+                                                line-height: 25px;
+                                                letter-spacing: 1px;
+                                                border-right: 1px solid #4F4F4F;
+                                                /* height: 26px; */
+                                              ">
+                                                        License
+                                                    </p>
+                                                </a>
+                                            </td>
+
+                                            <td>
+                                                <a href="" style="text-decoration: none">
+                                                    <p class="gray" style="
+                                                font-family: 'Urbanist', sans-serif;
+                                                font-style: normal;
+                                                font-weight: 300;
+                                                font-size: 12px;
+                                                line-height: 157.84%;
+                                                color: #4F4F4F;
+                                                padding: 0 5px;
+                                                line-height: 25px;
+                                                letter-spacing: 1px;
+                                                border-right: 1px solid #4F4F4F;
+                                                /* height: 26px; */
+                                              ">
+                                                        Support
+                                                    </p>
+                                                </a>
+                                            </td>
+
+                                            <td>
+                                                <a href="" style="text-decoration: none">
+                                                    <p class="white" style="
+                                                font-family: 'Urbanist', sans-serif;
+                                                font-style: normal;
+                                                font-weight: 300;
+                                                font-size: 12px;
+                                                line-height: 157.84%;
+                                                color: #4F4F4F;
+                                                padding: 0 5px;
+                                                line-height: 25px;
+                                                letter-spacing: 1px;
+                                                border-right: 1px solid #ffffff;
+                                                /* height: 20px; */
+                                              ">
+                                                        Contact
+                                                    </p>
+                                                </a>
+                                            </td>
+                                        </table>
+                                        <table align="center" class="apps" style="
+                                          /* display: flex; */
+                                          /* justify-content: center; */
+                                          /* margin: 1em 0 4em; */
+                                          opacity: 0.98;
+                                          border-spacing: 40px 0;
+                                        ">
+                                            <tbody style="border-spacing: 14px 0px">
+                                                <tr style="
+                              width: 100%;
+                              display: flex;
+                              justify-content: space-around;
+                              align-items: center;
+                              margin-top: 20px;
+
+                            ">
+                                                    <td class="tda" style="
+                                background-color: #4F4F4F;
+                                border-radius: 50%;
+                                width: 20px;
+                                height: 20px;
+                                /* padding: 4px; */
+                                cursor: pointer;
+                                margin: 0 10px;
+                              ">
+                                                        <a href=""><img class="image" style="
+                                    display: flex;
+                                    justify-content: center;
+                                    width: 15px;
+                                    height: 15px;
+                                    padding: 3px 2px;
+                                  " src="https://s3.amazonaws.com/email.template.underscore/pp/facebook_png.png"
+                                                                alt="" /></a>
+                                                    </td>
+                                                    <td class="tda" style="
+                                background-color: #4F4F4F;
+                                border-radius: 50%;
+                                width: 20px;
+                                height: 20px;
+                                /* padding: 4px; */
+                                cursor: pointer;
+                                margin: 0 10px;
+                              ">
+                                                        <a href=""><img class="image" style="
+                                    display: flex;
+                                    justify-content: center;
+                                    width: 12px;
+                                    height: 12px;
+                                    padding: 4px 4px;
+                                  " src="https://s3.amazonaws.com/email.template.underscore/pp/twitter_png.png"
+                                                                alt="" /></a>
+                                                    </td>
+                                                    <td class="tda" style="
+                                background-color: #4F4F4F;
+                                border-radius: 4px;
+                                width: 20px;
+                                height: 20px;
+                                /* padding: 4px; */
+                                cursor: pointer;
+                                margin: 0 10px;
+                              ">
+                                                        <a href=""><img class="image" style="
+                                    display: flex;
+                                    justify-content: center;
+                                    width: 15px;
+                                    height: 15px;
+                                    padding: 2px 3px;
+                                  " src="https://s3.amazonaws.com/email.template.underscore/pp/linkedin_png.png"
+                                                                alt="" /></a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <table class="rightres" style="
+                                          /* display: flex; */
+                                          justify-content: center;
+                                          text-align: center;
+                                          font-family: 'Urbanist', sans-serif;
+                                          font-style: normal;
+                                          font-weight: 300;
+                                          font-size: 12px;
+                                          line-height: 3em;
+                                          margin-bottom: 0px;
+                                          color: #4F4F4F;
+                                          letter-spacing: 1px;
+                                        " align="center">
+                                            <tr>
+                                                <td>
+                                                    <p>
+                                                        ©2022 sunnycalsolarinc.&nbsp;All rights reserved.
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+
+                                            </tr>
+                                        </table>
+
+
+                                    </table>
+                                </td>
+                            </tr>
+
+                        </table>
+                        <table width="650" cellpadding="0" cellspacing="0" border="0" class="wrapper">
+                            <tr>
+                                <td height="40" style="font-size:10px; line-height:10px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="top">
+                                </td>
+                            </tr>
+                        </table>
+
+
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+
+</html>
