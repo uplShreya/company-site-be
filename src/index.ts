@@ -25,7 +25,7 @@ connectToDb();
 const server = app.listen(config.port, () => {
     console.log(`
       ################################################
-      🛡️  Conpanysite server listening on port: http://localhost:${config.port} 🛡️
+      🛡️  Companysite server listening on port: http://localhost:${config.port} 🛡️
       ################################################
     `);
  
