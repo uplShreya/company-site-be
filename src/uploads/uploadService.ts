@@ -79,7 +79,7 @@ export default {
   upload: (req: any, res: any) => {
     return new Promise(function (resolve, reject) {
       try {
-        const userId = req.query?.userId ? req.query.userId : req.user?._id;
+        const userId = 1234;
         const entity = `underscoretec/${config.environment}/${userId}`; //literally any owner/user's id
         let storage;
         let type = req.query.fileType ? req.query.fileType : "image";
