@@ -73,8 +73,8 @@ export function contactUs(contact:any){
 			var data = {
 				userName: `${contact.name}`,
                 service:`${contact.service}`,
-                mode:`${contact.mode}`,
-                project:`${contact.project}`,
+                connectMode:`${contact.connectMode}`,
+                projectDes:`${contact.projectDes}`,
 				webUrl: process.env.APP_URL,
                 date:`${contact.createdAt}`,
 

@@ -12,8 +12,8 @@ export default{
                     name: req.body?.name,
                     email: req.body?.email.toLowerCase(),
                     service: req.body?.service,
-                    mode:req.body?.mode,
-                    project: req.body?.project,
+                    connectMode:req.body?.connectMode,
+                    projectDes: req.body?.projectDes,
                     documents: req.body?.documents === undefined ? {} : req.body?.documents,
                     createdAt: Date.now(),
                     updatedAt: Date.now()
@@ -24,8 +24,8 @@ export default{
                         service: newContacts?.service,
                         name: newContacts?.name,
                         email: newContacts?.email,
-                        mode: newContacts?.mode,
-                        project: newContacts?.project,
+                        connectMode: newContacts?.connectMode,
+                        projectDes: newContacts?.projectDes,
                         createdAt:moment(newContacts.createdAt).format("ll")
                     })
                     console.log(newContacts,"newContacts")

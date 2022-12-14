@@ -6,8 +6,8 @@ const ContactsSchema = new Schema({
     service:{
         type:String
     },
-    mode:{
-        type:String
+    connectMode: {
+        type: String
     },
     name: {
         type: String
@@ -15,10 +15,9 @@ const ContactsSchema = new Schema({
     email: {
         type: String,
     },
-    project: {
+    projectDes: {
         type: String,
     },
-
     documents: {
         key: {
             type: String,
