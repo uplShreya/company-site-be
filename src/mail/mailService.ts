@@ -77,7 +77,6 @@ export function contactUs(contact:any){
                 project:`${contact.project}`,
 				webUrl: process.env.APP_URL,
                 date:`${contact.createdAt}`,
-                subject:`${contact.subject}`,
 
 			};
 

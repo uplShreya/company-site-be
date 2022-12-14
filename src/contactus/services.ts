@@ -10,7 +10,6 @@ export default{
             try {
                 const contacts = new contactModel({
                     name: req.body?.name,
-                    subject: req.body?.subject,
                     email: req.body?.email.toLowerCase(),
                     service: req.body?.service,
                     mode:req.body?.mode,
@@ -22,7 +21,6 @@ export default{
                 const newContacts = await contacts.save()
                 if (newContacts) {
                     contactUs({
-                        subject:newContacts.subject,
                         service: newContacts?.service,
                         name: newContacts?.name,
                         email: newContacts?.email,

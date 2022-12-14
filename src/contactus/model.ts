@@ -2,9 +2,7 @@ import * as mongoose from "mongoose";
 let Schema = mongoose.Schema;
 
 const ContactsSchema = new Schema({
-    subject:{
-        type:String
-    },
+   
     service:{
         type:String
     },
